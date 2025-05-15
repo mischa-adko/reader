@@ -1,4 +1,4 @@
-name: Lint Python Code
+name: MAK Lint Python Code
 
 on:
   pull_request:
