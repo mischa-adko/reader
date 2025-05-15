@@ -19,7 +19,7 @@ def _feed(url: str = URL) -> feedparser.FeedParserDict:
     return _CACHED_FEEDS[url]
 
 
-def get_site(url: str=URL) -> str:
+def get_site(url: str = URL) -> str:
     """Get name and link to website of the feed."""
     info = _feed(url)
     if exception := info.get("bozo_exception"):
